@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Width Hero Section</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites/dist/css/foundation.min.css">
+    <title>Full Width Hero Section with Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body, html {
             margin: 0;
@@ -23,7 +23,6 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            margin: 0; /* Remove any default margin */
             padding: 0; /* Remove any default padding */
         }
 
@@ -56,7 +55,7 @@
 </head>
 <body>
 
-    <div class="hero-section">
+    <div class="hero-section d-flex flex-column align-items-center justify-content-center">
         <div class="hero-quote">"Your inspiring quote goes here"</div>
         <img src="https://via.placeholder.com/100" alt="Placeholder Image" class="hero-image">
         <button class="hero-button">Click Me</button>
