@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ScareCrook</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites/dist/css/foundation.min.css">
+    <style>
+        .hero-section {
+            background-color: #007BFF; /* Blue background */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .hero-quote {
+            font-size: 3rem; /* Large font for the quote */
+            margin-bottom: 20px;
+        }
+
+        .hero-image {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .hero-button {
+            background-color: white;
+            color: #007BFF; /* Blue font inside the button */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        .hero-button:hover {
+            background-color: #0056b3; /* Darker blue when hovered */
+            color: white;
+        }
+    </style>
 </head>
 <body>
-Hello hello hello
+
+    <div class="hero-section">
+        <div class="hero-quote">"Your inspiring quote goes here"</div>
+        <img src="https://via.placeholder.com/100" alt="Placeholder Image" class="hero-image">
+        <button class="hero-button">Click Me</button>
+    </div>
+
 </body>
 </html>
